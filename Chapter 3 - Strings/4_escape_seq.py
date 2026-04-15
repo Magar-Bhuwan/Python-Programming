@@ -1,0 +1,8 @@
+a = "My name is Ramlal Chaudhary.\nI live in Surkhet"       #new line (\n)
+b = "My name is Ramlal Chaudhary.\tI live in Surkhet"       #tab (\t)
+c = "My name is Ramlal Chaudhary. \"I live in Surkhet;\""   #double quate (\"\")
+d = "My name is Ramlal Chaudhary.\\I live in Surkhet"       #tab (\\)
+print(a)
+print(b)
+print(c)
+print(d)
