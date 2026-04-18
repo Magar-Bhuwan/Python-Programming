@@ -1,0 +1,7 @@
+python is a programming language. python is easy to learn. python is versatile. python is powerful.
+python is used in web development, data science, machine learning, artificial intelligence, and many other fields.
+python is a high-level, interpreted programming language. python is dynamically typed. python is garbage-collected.
+Python 
+
+
+
