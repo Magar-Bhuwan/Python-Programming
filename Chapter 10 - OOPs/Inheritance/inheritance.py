@@ -6,6 +6,8 @@
 # class child_class(parent_class):
 #     # body of child class
 
+
+#Example of single inheritance
 # parent class
 class Animal:                   
     def __init__(self, name):
