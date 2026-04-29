@@ -23,3 +23,18 @@ print(uppercase)
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
 print(even_numbers)
+
+
+# Reduce method in Python
+# Reduce method is used to apply a function cumulatively to the items of an iterable, from left to right, to reduce the iterable to a single value.
+# The syntax for the reduce method is: reduce(function, iterable)
+
+from functools import reduce
+
+# Example 01:
+numbers = [1, 2, 3, 4, 5]
+sum = reduce(lambda x, y: x+y, numbers)
+print("Sum of numbers: ", sum)
+product = reduce(lambda x, y: x * y, numbers)
+print("Product of numbers: ", product)
+
